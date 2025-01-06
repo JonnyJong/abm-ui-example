@@ -69,8 +69,8 @@ UI.configs.locale.setLocaleDict('', {
 	},
 });
 // Icon
-UI.configs.icons.setIconPack('icon', './assets/icon.css');
-UI.configs.icons.setIconPack('icon-extra', './assets/icon-extra.css');
+UI.configs.icons.setIconPack('icon', '../assets/icon.css');
+UI.configs.icons.setIconPack('icon-extra', '../assets/icon-extra.css');
 UI.configs.icons.defaults.selectExpand = 'icon-extra:ChevronUpDown';
 UI.configs.icons.defaults.msgHide = 'icon:ChevronUp';
 UI.configs.icons.defaults.msgClose = 'icon:Clear';
