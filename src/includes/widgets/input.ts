@@ -178,4 +178,38 @@ export function widgetInput() {
 		],
 		['input', 'autofill', 'action', 'confirm'],
 	);
+	//#region Text Field
+	$panel(
+		'text-field',
+		UI.$new<UI.WidgetTextField>('w-text-field'),
+		[
+			{
+				type: 'string',
+				key: 'value',
+				default: '',
+			},
+			{
+				type: 'string',
+				key: 'placeholder',
+				default: '',
+			},
+			{
+				type: 'boolean',
+				key: 'disabled',
+			},
+			{
+				type: 'boolean',
+				key: 'readOnly',
+			},
+			{
+				type: 'boolean',
+				key: 'invalid',
+			},
+			{
+				type: 'boolean',
+				key: 'autoHeight',
+			},
+		],
+		['input', 'confirm'],
+	);
 }
