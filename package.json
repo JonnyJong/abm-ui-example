@@ -38,7 +38,7 @@
 		"typescript": "5.7.2"
 	},
 	"dependencies": {
-		"abm-ui": "0.0.3",
+		"abm-ui": "^0.0.4",
 		"abm-utils": "0.0.3"
 	}
 }

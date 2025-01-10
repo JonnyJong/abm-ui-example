@@ -19,7 +19,9 @@ import { widgetSwitch } from './includes/widgets/switch';
 
 //#region Init Config
 // CSS
+UI.configs.dev = true;
 UI.configs.globalCSS = '../node_modules/abm-ui/dist/style.css';
+UI.configs.autoInsertCSSLink = true;
 // Locale
 const DICT: Record<string, UIDefaultDict> & Record<string, Record<string, string>> = {
 	zh: {
